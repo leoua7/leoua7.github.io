@@ -39,8 +39,21 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+#content a {
+  text-decoration: none;
+}
+
 #paginator .page-number,
 .space,
 .prev {
   padding-right: 0.5em;
+}
+
+.archive .archive-item {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+}
+.archive h2 {
+  margin: 0;
 }
